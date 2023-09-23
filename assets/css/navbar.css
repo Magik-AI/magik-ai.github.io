@@ -1,0 +1,56 @@
+.navbar {
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 10000;
+}
+.navbar .logo {
+    margin-left: 25px;
+    width: 50px;
+    display: inline-block;
+}
+.navbar .links {
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.navbar  li {
+    padding: 0px 15px;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+    transition: all 0.3s ease-in;
+}
+.navbar li a:hover {
+    color: #FFCB39;
+}
+
+.navbar-invite {
+    padding: 10px 25px;
+    border: 1px solid #FFCB39;
+    border-radius: 100px;
+    font-weight: 400;
+}
+.navbar-invite:hover {
+    color: #fff;
+    background-color: #FFCB39;
+    transition: 0.2s;
+}

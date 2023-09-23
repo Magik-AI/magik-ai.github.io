@@ -1,0 +1,26 @@
+#loader {
+    width: 240px;
+    height: 40px;
+    border-radius: 40px;
+    background:
+        repeating-linear-gradient(135deg,#766DF433    0 20px,#766DF41a    0 40px) left/100% 100%,
+        repeating-linear-gradient(135deg,#FFCB39 0 20px,#FFCB39 0 40px) left/0% 100%   no-repeat;
+    color: #FFCB39;
+    border: 2px solid;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    z-index: 999;
+    animation: loading 3s infinite;
+}
+
+@keyframes loading {
+    100% {background-size: 100% 100%;}
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
