@@ -31,7 +31,7 @@ Magik was brought to life by [@RaulRDA](https://github.com/raulrda), the mind be
 
 We welcome contributions! If you're a developer or designer and want to contribute to the project, feel free to reach out or submit pull requests.
 
-## Issues and Suggestions
+## Issues
 
 If you encounter any issues or have suggestions to improve Magik, please open an issue in this repository.
 
