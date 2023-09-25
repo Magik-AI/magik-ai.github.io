@@ -11,11 +11,11 @@ function Features() {
 }
 
 function InviteMagik() {
-    window.open('http://invite.magik.raulrda.com', '_blank')
+    window.open('https://discord.com/oauth2/authorize?client_id=1154411860372754523&scope=bot%20applications.commands&permissions=414531832896', '_blank')
 }
 
 function JoinDiscord() {
-    window.open('http://discord.magik.raulrda.com', '_blank')
+    window.open('https://discord.gg/KxkptEEHyH', '_blank')
 }
 
 function GoBack() {
@@ -33,3 +33,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setTimeout(showContent, 3000);
 });
+
+function PrivacyPolicy() {
+    /*var PDF = './assets/pdf/PrivacyPolicy.pdf';
+    var downloadLink = document.createElement('a');
+    downloadLink.href = PDF;
+    downloadLink.download = 'MagikPrivacyPolicy.pdf';
+    downloadLink.click();*/
+    window.open('/assets/pdf/PrivacyPolicy.pdf', '_blank')
+}
